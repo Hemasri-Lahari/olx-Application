@@ -1,6 +1,6 @@
 server:
-  port: 4000
-
+  port: 2000
+  
 spring:
     mvc:
       pathmatch:
@@ -18,8 +18,7 @@ spring:
              format_sql: true
       hibernate:
          ddl-auto: update 
-      show-sql: true     
-
+      show-sql: true  
       
 management:
    endpoints:
@@ -29,4 +28,4 @@ management:
            - "*"  
           exclude:
           
-       base-path: "/my-actuator"            
+       base-path: "/my-actuator"           
