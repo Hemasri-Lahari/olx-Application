@@ -1,5 +1,5 @@
 server:
-  port: 3000
+  port: 4000
 
 spring:
     mvc:
@@ -20,6 +20,7 @@ spring:
          ddl-auto: update 
       show-sql: true     
 
+      
 management:
    endpoints:
      web:
@@ -28,4 +29,4 @@ management:
            - "*"  
           exclude:
           
-       base-path: "/my-actuator"      
+       base-path: "/my-actuator"            
